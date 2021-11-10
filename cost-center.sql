@@ -23,7 +23,6 @@ CREATE TABLE `cost-center`
     `IsBlockedForPlanSecondaryCosts` varchar(1) DEFAULT NULL,
     `IsBlockedForPlanRevenues` varchar(1) DEFAULT NULL,
     `ConsumptionQtyIsRecorded` varchar(1) DEFAULT NULL,
-    `Language`              varchar(2) DEFAULT NULL,
     `CostCenterCreationDate` date DEFAULT NULL,
     PRIMARY KEY (`ControllingArea`, `CostCenter`),
 ) ENGINE = InnoDB
