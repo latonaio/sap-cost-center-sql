@@ -1,4 +1,4 @@
-CREATE TABLE `cost-center`
+CREATE TABLE `sap-cost-center`
 (
     `ControllingArea`       varchar(4) DEFAULT NULL,
     `CostCenter`            varchar(10) DEFAULT NULL,
@@ -24,6 +24,6 @@ CREATE TABLE `cost-center`
     `IsBlockedForPlanRevenues` varchar(1) DEFAULT NULL,
     `ConsumptionQtyIsRecorded` varchar(1) DEFAULT NULL,
     `CostCenterCreationDate` date DEFAULT NULL,
-    PRIMARY KEY (`ControllingArea`, `CostCenter`),
+    PRIMARY KEY (`ControllingArea`, `CostCenter`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
