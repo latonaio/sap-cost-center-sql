@@ -13,7 +13,7 @@ https://api.sap.com/api/OP_API_COSTCENTER_SRV_0001/overview
 
 sap-cost-center-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* cost-center.sql
+* sap-cost-center.sql（SAP 原価センタ）
 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
